@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Qoramtir yashil fon */
+}
+
+#dragon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url('dragon.png'); /* Dragon rasmi joylashadi */
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
